@@ -45,14 +45,12 @@ print(marginARR)
 for row in range(0,16):
     for col in range(0,16):
         mutsum = 0
-        mutsum += pairs[row][col][0] * num.log2((pairs[row][col][0])/(marginARR[row]*marginARR[col]))
-        mutsum += pairs[row][col][1] * num.log2((pairs[row][col][1])/(marginARR[row]*(1-marginARR[col])))
-        mutsum += pairs[row][col][2] * num.log2((pairs[row][col][2])/((1-marginARR[row])*marginARR[col]))
-        mutsum += pairs[row][col][3] * num.log2((pairs[row][col][3])/((1-marginARR[row])*(1-marginARR[col])))
-        mut[row][col] = mutsum
+        if(row != col):
+            mutsum += pairs[row][col][0] * num.log2((pairs[row][col][0])/(marginARR[row]*marginARR[col]))
+            mutsum += pairs[row][col][1] * num.log2((pairs[row][col][1])/(marginARR[row]*(1-marginARR[col])))
+            mutsum += pairs[row][col][2] * num.log2((pairs[row][col][2])/((1-marginARR[row])*marginARR[col]))
+            mutsum += pairs[row][col][3] * num.log2((pairs[row][col][3])/((1-marginARR[row])*(1-marginARR[col])))
+            mut[row][col] = mutsum
 
 
-
-print(pairwise(0, 1, 1, 0) + pairwise(0, 1, 0, 0) + pairwise(0, 1, 1, 1) + pairwise(0, 1, 0, 1))
-
-print(margins(1, 1))
+print(mut)

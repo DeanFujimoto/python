@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b03c05c4-d60a-4d1a-ab0d-2f5ab388e33e" name="Default Changelist" comment="" />
+    <list default="true" id="b03c05c4-d60a-4d1a-ab0d-2f5ab388e33e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/496project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XjjkP6zZuBGf1KBXFGhcbJWNpu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,11 +30,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -103,34 +108,34 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="825" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1581720943505" />
-    <state width="1398" height="196" key="GridCell.Tab.0.bottom" timestamp="1584322264376">
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom" timestamp="1584328223207">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1358" height="197" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1583265788569" />
     <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1583903566058" />
     <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1583887160198" />
-    <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1584322264376" />
-    <state width="1398" height="196" key="GridCell.Tab.0.center" timestamp="1584322264375">
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1584328223207" />
+    <state width="1398" height="196" key="GridCell.Tab.0.center" timestamp="1584328223206">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1358" height="197" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1583265788567" />
     <state width="1398" height="196" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1583903566057" />
     <state width="1398" height="196" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1583887160197" />
-    <state width="1398" height="196" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1584322264375" />
-    <state width="1398" height="196" key="GridCell.Tab.0.left" timestamp="1584322264375">
+    <state width="1398" height="196" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1584328223206" />
+    <state width="1398" height="196" key="GridCell.Tab.0.left" timestamp="1584328223205">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1358" height="197" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1583265788566" />
     <state width="1398" height="196" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1583903566057" />
     <state width="1398" height="196" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1583887160196" />
-    <state width="1398" height="196" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1584322264375" />
-    <state width="1398" height="196" key="GridCell.Tab.0.right" timestamp="1584322264376">
+    <state width="1398" height="196" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1584328223205" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right" timestamp="1584328223206">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1358" height="197" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1583265788568" />
     <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1583903566058" />
     <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1583887160197" />
-    <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1584322264376" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1584328223206" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1584317170437">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
@@ -151,11 +156,12 @@
     </state>
     <state width="1358" height="263" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1583873074347" />
     <state width="1398" height="262" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1584317170437" />
-    <state x="416" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1583885043271">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="416" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1584322460310">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="458" y="50" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1581721023166" />
     <state x="416" y="23" width="1024" height="822" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1583885043271" />
+    <state x="416" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1584322460310" />
     <state x="396" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1582007225838">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -166,6 +172,6 @@
     <state x="405" y="208" key="run.anything.popup/0.23.1440.821@0.23.1440.821" timestamp="1581566632539" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1584322264361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1584328223189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

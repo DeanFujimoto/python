@@ -24,11 +24,16 @@ def pairwise(num1, num2, s1, s2):
 pairs = num.zeros((16,16,4))
 
 for row in range (0,16):
-    for col in range (0,16):
+    for col in range (row,16):
         pairs[row,col,0] =pairwise(row, col, 0,0)
         pairs[row,col, 1] =pairwise(row, col, 0,1)
         pairs[row,col, 2] =pairwise(row, col, 1,0)
         pairs[row,col, 3] =pairwise(row, col, 1,1)
+        ##print(pairs[row,col,0])
+        ##print(pairs[row,col,1])
+        ##print(pairs[row,col,2])
+        ##print(pairs[row,col,3])
+
 
 
 def margins(num, s):
@@ -43,9 +48,29 @@ for i in range (0,16):
     marginARR.append(margins(i,0))
 print(marginARR)
 for row in range(0,16):
-    for col in range(0,16):
+    for col in range(row,16):
         mutsum = 0
         if(row != col):
+            if (pairs[row][col][0]<marginARR[row]*marginARR[col]):
+                print('err1')
+                print(pairs[row][col][0])
+                print(marginARR[row])
+                print(marginARR[col])
+            if (pairs[row][col][1]<(marginARR[row])*(1-marginARR[col])):
+                print('err2')
+                print(pairs[row][col][1])
+                print(marginARR[row])
+                print(1-marginARR[col])
+            if (pairs[row][col][2]<(1-marginARR[row])*(marginARR[col])):
+                print('err3')
+                print(pairs[row][col][2])
+                print(1-marginARR[row])
+                print(marginARR[col])
+            if (pairs[row][col][3]<(1-marginARR[row])*(1-marginARR[col])):
+                print('err4')
+                print(pairs[row][col][3])
+                print(1-marginARR[row])
+                print(1-marginARR[col])
             mutsum += pairs[row][col][0] * num.log2((pairs[row][col][0])/(marginARR[row]*marginARR[col]))
             mutsum += pairs[row][col][1] * num.log2((pairs[row][col][1])/(marginARR[row]*(1-marginARR[col])))
             mutsum += pairs[row][col][2] * num.log2((pairs[row][col][2])/((1-marginARR[row])*marginARR[col]))
@@ -53,4 +78,4 @@ for row in range(0,16):
             mut[row][col] = mutsum
 
 
-print(mut)
+##print(mut)

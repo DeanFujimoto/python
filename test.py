@@ -51,26 +51,7 @@ for row in range(0,16):
     for col in range(row,16):
         mutsum = 0
         if(row != col):
-            if (pairs[row][col][0]<marginARR[row]*marginARR[col]):
-                print('err1')
-                print(pairs[row][col][0])
-                print(marginARR[row])
-                print(marginARR[col])
-            if (pairs[row][col][1]<(marginARR[row])*(1-marginARR[col])):
-                print('err2')
-                print(pairs[row][col][1])
-                print(marginARR[row])
-                print(1-marginARR[col])
-            if (pairs[row][col][2]<(1-marginARR[row])*(marginARR[col])):
-                print('err3')
-                print(pairs[row][col][2])
-                print(1-marginARR[row])
-                print(marginARR[col])
-            if (pairs[row][col][3]<(1-marginARR[row])*(1-marginARR[col])):
-                print('err4')
-                print(pairs[row][col][3])
-                print(1-marginARR[row])
-                print(1-marginARR[col])
+            
             mutsum += pairs[row][col][0] * num.log2((pairs[row][col][0])/(marginARR[row]*marginARR[col]))
             mutsum += pairs[row][col][1] * num.log2((pairs[row][col][1])/(marginARR[row]*(1-marginARR[col])))
             mutsum += pairs[row][col][2] * num.log2((pairs[row][col][2])/((1-marginARR[row])*marginARR[col]))
